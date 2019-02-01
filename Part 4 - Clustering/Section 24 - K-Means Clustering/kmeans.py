@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+""" What do spenders at a mall have in common? """
 
 # K-Means Clustering
 

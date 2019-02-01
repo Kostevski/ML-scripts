@@ -1,4 +1,4 @@
-# Data Preprocessing Template
+# Problem: Does a employee level 6.5 earn 160 k?
 
 # Importing the dataset
 dataset = read.csv('Position_Salaries.csv')
@@ -14,7 +14,7 @@ dataset = dataset[2:3]
 
 # Feature Scaling
 # training_set = scale(training_set)
-# test_set = scale(test_set) 
+# test_set = scale(test_set)
 
 # Fitting Linear Regression to the dataset
 lin_reg = lm(formula = Salary ~ Level,
@@ -31,9 +31,9 @@ poly_reg = lm(formula = Salary ~ .,
 #Visiualize lin-reg
 library(ggplot2)
 ggplot() +
-  geom_point(aes(x = dataset$Level, y = dataset$Salary), 
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
              color="red") +
-  geom_line(aes(x = dataset$Level, y = predict(lin_reg, newdata = dataset), 
+  geom_line(aes(x = dataset$Level, y = predict(lin_reg, newdata = dataset),
             color="blue")) +
   ggtitle("Truth or Bluff?") +
   xlab('Level') +
@@ -41,9 +41,9 @@ ggplot() +
 
 # Visual polyreg
 ggplot() +
-  geom_point(aes(x = dataset$Level, y = dataset$Salary), 
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
              color="red") +
-  geom_line(aes(x = dataset$Level, y = predict(poly_reg, newdata = dataset), 
+  geom_line(aes(x = dataset$Level, y = predict(poly_reg, newdata = dataset),
                 color="blue")) +
   ggtitle("Truth or Bluff? (Polynoimial)") +
   xlab('Level') +

@@ -1,4 +1,4 @@
-# Classification template
+""" Does age predict income? """
 
 # Importing the libraries
 import numpy as np

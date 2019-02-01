@@ -1,4 +1,4 @@
-# Data Preprocessing Template
+# Problem: Does a employee level 6.5 earn 160 k?
 
 # Importing the dataset
 dataset = read.csv('Salary_Data.csv')

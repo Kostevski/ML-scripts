@@ -1,3 +1,5 @@
+""" Which food purchases come together? """
+
 # Apriori
 
 # Importing the libraries

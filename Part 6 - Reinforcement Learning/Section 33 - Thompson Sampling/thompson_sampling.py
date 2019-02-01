@@ -1,3 +1,5 @@
+""" Problem: Find best converting ad amongst 10 ads """
+
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt

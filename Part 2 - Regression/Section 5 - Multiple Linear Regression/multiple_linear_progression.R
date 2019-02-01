@@ -1,4 +1,4 @@
-# Data Preprocessing Template
+# Problem: Which factor amongst many correlates with income?
 
 # Importing the dataset
 dataset = read.csv('50_Startups.csv')
@@ -39,7 +39,7 @@ regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend,
 summary(regressor)
 
 # Remove worse(Administration)
-regressor = lm(formula = Profit ~ R.D.Spend + Marketing.Spend, 
+regressor = lm(formula = Profit ~ R.D.Spend + Marketing.Spend,
                data = dataset)
 summary(regressor)
 

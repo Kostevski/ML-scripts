@@ -1,4 +1,4 @@
-# Data Preprocessing Template
+""" What do spenders at a mall have in common? """
 
 # Importing the libraries
 import numpy as np

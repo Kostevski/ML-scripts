@@ -1,4 +1,4 @@
-# Eclat
+# """ Which food purchases come together? """
 
 # Data Preprocessing
 # install.packages('arules')

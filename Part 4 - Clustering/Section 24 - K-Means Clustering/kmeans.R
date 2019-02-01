@@ -1,4 +1,5 @@
-# Data Preprocessing Template
+# """ What do spenders at a mall have in common? """
+
 
 # Importing the dataset
 dataset = read.csv('Mall_Customers.csv')
@@ -10,7 +11,7 @@ wcss <- vector()
 for (i in 1:10) wcss[i] <- sum(kmeans(X, i)$withinss)
 plot(1:10, wcss,
      type="b",
-     main = paste("Cluster of Clients"), 
+     main = paste("Cluster of Clients"),
      xlab="number of clusters",
      ylab="WCSS")
 
@@ -31,4 +32,3 @@ clusplot(X,
          main = paste("Cluster of clients"),
          xlab = "Annual Income",
          ylab = "Spending score")
-         

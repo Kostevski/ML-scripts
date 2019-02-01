@@ -1,3 +1,6 @@
+# """ Problem: Find best converting ad amongst 10 ads """
+
+
 # Upper Confidence Bound
 
 # Importing the dataset
@@ -46,7 +49,7 @@ for (n in 1:N) {
 #   reward = dataset[n, ad]
 #   total_reward = total_reward + reward
 # }
-# 
+#
 ################################
 #       Total reward ~ 1200   ##
 ################################

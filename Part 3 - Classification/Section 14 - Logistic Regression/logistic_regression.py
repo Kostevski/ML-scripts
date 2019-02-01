@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+""" Does age predict income? """
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt

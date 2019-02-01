@@ -1,4 +1,4 @@
-# SVR
+""" Problem: Does a employee level 6.5 earn 160 k? """
 
 # Importing the libraries
 import numpy as np

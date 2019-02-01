@@ -1,4 +1,4 @@
-# Data Preprocessing Template
+# """ What do spenders at a mall have in common? """
 
 # Importing the dataset
 dataset = read.csv('Mall_Customers.csv')
@@ -10,7 +10,7 @@ plot(dendrogram,
      main = paste('Dendrogram'),
      xlab = 'Customers',
      ylab = 'Euclidean distances')
-  
+
 # Fittin hierarchical clustering to the mall dataset
 hc = hclust(dist(X, method = 'euclidean'), method = 'ward.D')
 y_hc = cutree(hc, 5)

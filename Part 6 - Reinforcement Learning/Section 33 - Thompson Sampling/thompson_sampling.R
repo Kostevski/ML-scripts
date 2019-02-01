@@ -1,4 +1,4 @@
-# Upper Confidence Bound
+# """ Problem: Find best converting ad amongst 10 ads """
 
 # Importing the dataset
 dataset = read.csv('Ads_CTR_Optimisation.csv')
@@ -19,7 +19,7 @@ for (n in 1:N) {
       random_beta = rbeta(n = 1,
                           shape1 = numbers_of_rewards_1[i] + 1,
                           shape2 = numbers_of_rewards_0[i] + 1)
-      
+
     if (random_beta > max_random) {
       max_random = random_beta
       ad = i
@@ -47,7 +47,7 @@ for (n in 1:N) {
 #   reward = dataset[n, ad]
 #   total_reward = total_reward + reward
 # }
-# 
+#
 ################################
 #       Total reward ~ 1200   ##
 ################################
