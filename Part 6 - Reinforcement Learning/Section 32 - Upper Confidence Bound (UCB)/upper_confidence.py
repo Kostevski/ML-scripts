@@ -42,7 +42,7 @@ for n in range(0, N):
 
 # Visualizing the results
 print("Numbers of subjects: {}".format(N))
-print("Numbers of add clicks: {}".format(total_reward))
+print("Numbers of ad clicks: {}".format(total_reward))
 #plt.hist(ads_selected)
 plt.bar([x for x in range (0,d)],
          number_of_selections,
