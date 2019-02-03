@@ -192,4 +192,5 @@ df = pd.DataFrame(data=d,
                   dtype=np.uint8)
 
 plt.figure()
+plt.ylabel("%")
 df.plot(kind='bar')
